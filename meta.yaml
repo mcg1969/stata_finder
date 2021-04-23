@@ -1,0 +1,23 @@
+package:
+  name: stata_finder
+  version: 1.0
+
+source:
+  path: ./
+
+build:
+  number: 0
+
+requirements:
+  host: []
+  run:
+    - ncurses
+    - libpng
+    - zlib
+    - libstdcxx-ng
+    - libgcc-ng
+
+about:
+  home: https://anaconda.org
+  summary: A simple package to enable running Stata within a conda environment
+  license: Public domain
